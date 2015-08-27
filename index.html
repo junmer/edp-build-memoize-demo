@@ -8,7 +8,11 @@
     require.config({
         'baseUrl': 'src',
         'paths': {},
-        'packages': []
+        'packages': [{
+                'name': 'jquery',
+                'location': '../dep/jquery/1.9.1/src',
+                'main': 'jquery.min'
+            }]
     });
     </script>
 </head>

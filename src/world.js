@@ -4,18 +4,15 @@
  */
 
 define(function (require, exports, module) {
-    // 引入一个依赖的模块，可以使用require(relative/top-level id)
-    // var dependModule = require('./dependModule');
-
 
     /**
      * [Please input module description]
      */
-    function foo() {
-        console.log('foo');
+    function world() {
+        return 'world1';
     }
 
 
     // return模块
-    return foo;
+    return world;
 });

@@ -4,21 +4,24 @@
  */
 
 define(function (require, exports, module) {
-    // 引入一个依赖的模块，可以使用require(relative/top-level id)
-    // var dependModule = require('./dependModule');
 
-    var boo = require('./boo');
-    var foo = require('./foo');
+    var $ = require('jquery');
+
+    var hello = require('./hello');
+    var world = require('./world');
 
     /**
      * [Please input module description]
      */
     function app() {
-        boo();
-        foo();
+
+        var html = hello() + world();
+
+        $('body').append(html);
+
     }
 
-
-    app();
+    // ready
+    $(app);
 
 });

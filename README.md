@@ -35,6 +35,16 @@ exports.getProcessors = function () {
 });
 ```
 
+## Showcase
+
+- first build
+
+![first build](./doc/1.png)
+
+- memoize build
+
+![memoize build](./doc/2.png)
+
 ## Related
 
 - [edp-build-memoize](https://github.com/junmer/edp-build-memoize)
